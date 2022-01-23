@@ -19,10 +19,10 @@ function generateMarkdown(data) {
   # ${data.Title}
   https://github.com/${data.Username}/${data.Title}
 
-  # Description
+  ## Description
   ${data.Description}
 
-  # Table of Contents
+  ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
@@ -30,24 +30,24 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
   
-  # Installation
+  ## Installation
   The user will need to install the following dependencies to run the application: ${data.Installation}
 
-  # Usage
+  ## Usage
   ${data.Usage}
   
-  # Contributing
+  ## Contributing
   Contributors: ${data.Contributing}
 
-  # Tests
+  ## Tests
   The following is needed to run the test: ${data.Tests}
-  
+
   ![alt text](assets/images/screenshot.png)
 
-  # License
+  ## License
   ${renderLicenseBadge(data.License)}
 
-  # Questions
+  ## Questions
   If you have any question about this application, please contact ${data.Username} at ${data.Email}. 
 
 `;
