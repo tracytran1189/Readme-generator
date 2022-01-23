@@ -1,6 +1,7 @@
 
   # Readme-generator
   https://github.com/tracytran1189/Readme-generator
+  https://watch.screencastify.com/v/2Pc6Rim6ViHI1nO5fDF3
 
   ## Description
   Create a command-line application that dynamically generates a professional README file from a user's input using the Inquirer package. 
@@ -24,7 +25,8 @@
 
   ## Tests
   The following is needed to run the test: node index.js
-  ![alt text](./assets/images/screenshot.PNG)
+
+  ![alt text](assets/images/screenshot.png)
 
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
