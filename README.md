@@ -24,7 +24,7 @@
 
   # Tests
   The following is needed to run the test: node index.js
-  ![alt text](assets/images/screenshot.png)
+  ![alt text](./assets/images/screenshot.PNG)
 
   # License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
