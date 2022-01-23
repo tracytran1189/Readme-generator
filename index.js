@@ -1,6 +1,8 @@
 // TODO: Include packages needed for this application
-const fs = require("fs");
+const fs = require('fs');
 const inquirer = require("inquirer");
+// const util =require("util");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 
 // TODO: Create an array of questions for user input
@@ -57,7 +59,7 @@ const questions = [{
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeToFile(file, data, function(err) {
+    fs.writeFile(fileName, data, function(err) {
         if(err) {
             return console.log(err)
         }else {
@@ -70,7 +72,7 @@ function writeToFile(fileName, data) {
 function init() { 
     inquirer.prompt(questions)
     .then(function(data) {
-        writeToFile("READMED.md", generatorMarkdown(data));
+        writeToFile("READMED.md", generateMarkdown(data));
     })
 }
 
