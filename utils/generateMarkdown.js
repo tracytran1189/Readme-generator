@@ -42,7 +42,7 @@ function generateMarkdown(data) {
   ## Tests
   The following is needed to run the test: ${data.Tests}
 
-  ![alt text](./assets/images/screenshot.png)
+  ![alt text](./assets/images/screenshot.PNG)
 
   ## License
   ${renderLicenseBadge(data.License)}
